@@ -1,0 +1,28 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Administrador.Entidades</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Administrador.Entidades</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Administrador.Entidades.csproj" File="Administrador.Entidades.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AlmacenE.cs">AlmacenE.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CompraE.cs">CompraE.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoginE.cs">LoginE.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ProductoE.cs">ProductoE.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VentaE.cs">VentaE.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
